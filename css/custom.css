@@ -36,6 +36,28 @@
 	
 }
 
+.icon-row{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-around;
+}
+.icon-box{
+	padding:1.5rem 3.3rem 1rem 3.3rem;
+	max-width: 50%;
+	position:relative;
+}
+
+.icon-des{
+	font-size: 1rem;
+	border-radius: 20%;
+	padding: 1rem .5rem .2rem;
+
+}
+
+.soft-skills{
+	padding-top: 5rem;
+}
 
 .construction{
 	background: repeating-linear-gradient(
