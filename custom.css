@@ -1,0 +1,83 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Hanlding Updates
+-----------------------------------------------------------------*/
+.fullscreen{
+	background-image: url("../images/intro-bg.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+	width: 100%;
+	/* background-color: red; */
+}
+.hero-content{
+
+		background-color: rgb(0,0,0); /* Fallback color */
+		background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+		color: white;
+		font-weight: bold;
+		border: 3px solid #f1f1f1;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 2;
+		width: 80%;
+		padding: 20px;
+		text-align: center;
+}
+
+.col-auto {
+	display:flex;
+	flex-direction: row;
+	
+}
+
+.icon-row{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-around;
+}
+.icon-box{
+	padding:1.5rem 3.3rem 1rem 3.3rem;
+	max-width: 50%;
+	position:relative;
+}
+
+.icon-des{
+	font-size: 1rem;
+	border-radius: 20%;
+	padding: 1rem .5rem .2rem;
+
+}
+
+.soft-skills{
+	padding-top: 5rem;
+}
+
+.construction{
+	background: repeating-linear-gradient(
+  45deg,
+  #47471d,
+  #47471d 10px,
+  #22211c 10px,
+  #22211c 20px);
+
+  border-radius: 20px;
+}
+.project-des{
+	text-align: left;
+}
+.portfolio-overlay{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer{
+	display:flex;
+	flex-direction: row;
+}
